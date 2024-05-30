@@ -54,7 +54,7 @@ Las pruebas se centrarán en las funcionalidades principales del juego, incluyen
 ## Errores encontrados
 # **Error en la Validación del Número Ingresado:**
 **Descripción:** No se validaba que el número ingresado por el usuario fuera un entero positivo.
-**Solución:** Se implementó la función isPositiveInteger para validar si el número ingresado es un entero positivo. Si no lo es, se muestra una alerta y se evita incrementar el contador de intentos.
+**Solución:** Se implementó la función isPositive para validar si el número ingresado es un entero positivo. Si no lo es, se muestra una alerta y se evita incrementar el contador de intentos.
 
 
 # **Error en los Mensajes de Feedback para Intentos Fallidos:**
